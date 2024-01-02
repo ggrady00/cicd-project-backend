@@ -4,7 +4,23 @@ This is the API for adding/editing/deleting learners from our system.
 
 ## Running the app
 
-The instructions assume you have Java and Maven installed locally.
+### Running with docker
+
+You can run the application with docker by firstly building the image
+
+```
+docker build -t learners-api .
+```
+
+And then running the container:
+
+```
+docker run -p 8080:8080 learners-api
+```
+
+### Running locally
+
+Alternatively, you can run locally if you have Java and Maven installed locally.
 
 Instructions have been tested against Java version `openjdk 17.0.6` and Maven `3.8.4`
 
