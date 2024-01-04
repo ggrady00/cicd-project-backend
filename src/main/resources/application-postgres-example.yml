@@ -17,9 +17,9 @@ management:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/testdb2
-    username: postgres
-    password: mysecretpassword
+    url: jdbc:postgresql://terraform-20240104143428447900000003.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/terraform-20240104143428447900000003
+    username: awsome_architechs
+    password: cloud123
   jpa:
     hibernate:
       ddl-auto: validate
@@ -28,3 +28,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: false
+
+flyway:
+  url: jdbc:postgresql://terraform-20240104143428447900000003.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/terraform-20240104143428447900000003
+  user: awsome_architechs
+  password: cloud123 
