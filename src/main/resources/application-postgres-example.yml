@@ -17,7 +17,7 @@ management:
 
 spring:
   datasource:
-    url: jdbc:postgresql://terraform-20240104143428447900000003.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/terraform-20240104143428447900000003
+    url: jdbc:postgresql://terraform-20240105123141556900000003.cwknrohnqyor.eu-west-2.rds.amazonaws.com:5432/awsome_db
     username: awsome_architechs
     password: cloud123
   jpa:
@@ -30,6 +30,4 @@ spring:
     show-sql: false
 
 flyway:
-  url: jdbc:postgresql://terraform-20240104143428447900000003.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/terraform-20240104143428447900000003
-  user: awsome_architechs
-  password: cloud123 
+  locations: classpath:/db/migration
