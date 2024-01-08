@@ -17,17 +17,14 @@ management:
 
 spring:
   datasource:
-    url: jdbc:postgresql://terraform-20240105123141556900000003.cwknrohnqyor.eu-west-2.rds.amazonaws.com:5432/awsome_db
-    username: awsome_architechs
+    url: jdbc:postgresql://terraform-20240108083020466000000002.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/aws_customers
+    username: postgres
     password: cloud123
   jpa:
     hibernate:
       ddl-auto: validate
     properties:
-      hibernate:
+      hibernate:                                                                  
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: false
-
-flyway:
-  locations: classpath:/db/migration
