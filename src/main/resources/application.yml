@@ -17,7 +17,7 @@ management:
 
 spring:
   datasource:
-    url: jdbc:postgresql://terraform-20240108083020466000000002.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/aws_customers
+    url: jdbc:postgresql://terraform-2024011010495963510000000d.cfsrwfbzwtok.eu-west-2.rds.amazonaws.com:5432/aws_customers
     username: postgres
     password: cloud123
   jpa:
